@@ -1,5 +1,6 @@
-# <center>Remote Control Programma</center>
+# <center>Remote Control Program</center>
 **You can use mobilePhone to control PC**
+
 **Connect Modes:**
 - Socket(Wifi)
 - BlueTooth
