@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+
+        android:text="显示"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:src="@android:color/holo_blue_bright"
+         />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/win"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="Win"
+            android:background="#00aaff"
+            />
+        <Button
+            android:id="@+id/shutdown"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="关机"
+            android:background="#00aaff"
+            />
+
+        <Button
+            android:id="@+id/ctrlalt"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="Ctrl+Alt+del"
+            android:background="#00aaff"
+            />
+        <Button
+            android:id="@+id/cmd"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="打开CMD"
+            android:background="#00aaff"
+            />
+        <Button
+            android:id="@+id/logoff"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="注销"
+            android:background="#00aaff"
+            />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <Button
+            android:id="@+id/explorer"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="资源群管理器"
+            android:background="#00aaff"
+            />
+        <Button
+            android:id="@+id/nptepad"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="记事本"
+            android:background="#00aaff"
+            />
+        <Button
+            android:id="@+id/mspaint"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="画图"
+            android:background="#00aaff"
+            />
+        <Button
+            android:id="@+id/taskmgr"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="任务管理器"
+            android:background="#00aaff"
+            />
+        <Button
+            android:id="@+id/Nslookup"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:text="IP查询"
+            android:background="#00aaff"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 需要插入的自定义控件-->
+    <com.example.zqj.pptcontrol.view.IPEditText
+        android:id="@+id/iptext"
+        android:layout_height="wrap_content"
+        android:layout_width="340dp"
+        android:layout_alignParentLeft="true"
+        />
+    <Button
+        android:id="@+id/saoyisao"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/iptext"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_scan"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="42dp"
+        android:text="连接"
+        android:layout_below="@+id/iptext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="没有网络？"
+        android:background="@color/transparent"
+        android:layout_below="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="返回连接"
+        android:id="@+id/id_1"/>
+
+    <item
+        android:title="PPT控制器"
+        android:id="@+id/id_2"/>
+
+    <item
+        android:title="MediaPlayer"
+        android:id="@+id/id_3"/>
+
+    <item
+        android:title="鼠标控制界面"
+        android:id="@+id/id_4"/>
+    <item
+        android:title="电脑显示界面"
+        android:id="@+id/id_5"/>
+
+</menu>
