@@ -1,4 +1,4 @@
-# <center>Remote Control Program</center>
+# Remote Control Program
 **You can use mobilePhone to control PC**
 
 **Connect Modes:**
